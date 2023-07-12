@@ -1,12 +1,12 @@
 export const metadate = {
-    title: 'Обращение граждан'
+    title: 'Отзывы'
 }
   
 export default async function Page() {
     return (
-        <section className="questionnaire">
+        <section className="reviews">
             <div className="container">
-                <h1>Обращение граждан</h1>    
+                <h1>Отзывы</h1>    
             </div>
         </section>
     )
